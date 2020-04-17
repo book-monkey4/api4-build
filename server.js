@@ -17,13 +17,13 @@ const fake_bearer_middleware_1 = require("./fake-bearer-middleware");
 const notification_service_1 = require("./notification-service");
 var fs = require('fs');
 class Server {
-    static bootstrap() {
-        return new Server();
-    }
     constructor() {
         this.app = express();
         this.config();
         this.routes();
+    }
+    static bootstrap() {
+        return new Server();
     }
     config() {
         this.app.use(express.static(path.join(__dirname, "public")));
