@@ -7,7 +7,7 @@ class SomeBooks {
     }
 }
 exports.SomeBooks = SomeBooks;
-SomeBooks.secureBook = new book_1.Book('1234567890', 'Geheimes Buch', ['Anonymous'], new Date('2019-01-01T00:00:00.000Z'), `Das geheime Buch ist nur über die sichere Ressource verfügbar.`, 1, [new book_1.Thumbnail('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Anonymous_emblem.svg/600px-Anonymous_emblem.svg.png', 'Front Cover')], `Wenn Sie diesen Text lesen können, haben Sie den Authorization-Header korrekt gesendet - denn dieses geheime Buch ist nur über die sichere Ressource verfügbar.
+SomeBooks.secureBook = new book_1.Book('1234567890', 'Geheimes Buch', ['Anonymous'], new Date('2019-01-01T00:00:00.000Z'), `Das geheime Buch ist nur über die sichere Ressource verfügbar.`, 1, [new book_1.Thumbnail('https://api4.angular-buch.com/images/anonymous-emblem.svg', 'Front Cover')], `Wenn Sie diesen Text lesen können, haben Sie den Authorization-Header korrekt gesendet - denn dieses geheime Buch ist nur über die sichere Ressource verfügbar.
 Es kann weder neu angelegt, noch verändert oder gelöscht werden.`);
 SomeBooks.germanBooks = [
     new book_1.Book('9783864907791', 'Angular', ['Ferdinand Malcher', 'Johannes Hoppe', 'Danny Koppenhagen'], new Date('2020-07-01T00:00:00.000Z'), 'Grundlagen, fortgeschrittene Themen und Best Practices – inklusive RxJS, NgRx & PWA', 5, [
