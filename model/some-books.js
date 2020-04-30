@@ -11,7 +11,7 @@ SomeBooks.secureBook = new book_1.Book('1234567890', 'Geheimes Buch', ['Anonymou
 Es kann weder neu angelegt, noch verändert oder gelöscht werden.`);
 SomeBooks.germanBooks = [
     new book_1.Book('9783864907791', 'Angular', ['Ferdinand Malcher', 'Johannes Hoppe', 'Danny Koppenhagen'], new Date('2020-07-01T00:00:00.000Z'), 'Grundlagen, fortgeschrittene Themen und Best Practices – inklusive RxJS, NgRx & PWA', 5, [
-        new book_1.Thumbnail('https://api4.angular-buch.com/images/angular_auflage3.png', 'Front Cover'),
+        new book_1.Thumbnail('https://api4.angular-buch.com/images/angular_auflage3.jpg', 'Front Cover'),
     ], `Lernen Sie die Grundlagen von Angular mit diesem Praxisbuch!
 
 Mit einem anspruchsvollen Beispielprojekt führen wir Sie durch die Welt von Angular. Lernen Sie Schritt für Schritt, wie Sie modulare Single-Page-Anwendungen entwickeln.
