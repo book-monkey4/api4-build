@@ -10,39 +10,40 @@ exports.SomeBooks = SomeBooks;
 SomeBooks.secureBook = new book_1.Book('1234567890', 'Geheimes Buch', ['Anonymous'], new Date('2019-01-01T00:00:00.000Z'), `Das geheime Buch ist nur über die sichere Ressource verfügbar.`, 1, [new book_1.Thumbnail('https://api4.angular-buch.com/images/anonymous-emblem.svg', 'Front Cover')], `Wenn Sie diesen Text lesen können, haben Sie den Authorization-Header korrekt gesendet - denn dieses geheime Buch ist nur über die sichere Ressource verfügbar.
 Es kann weder neu angelegt, noch verändert oder gelöscht werden.`);
 SomeBooks.germanBooks = [
-    new book_1.Book('9783864907791', 'Angular', ['Ferdinand Malcher', 'Johannes Hoppe', 'Danny Koppenhagen'], new Date('2020-07-01T00:00:00.000Z'), 'Grundlagen, fortgeschrittene Themen und Best Practices – inklusive RxJS, NgRx & PWA', 5, [
+    new book_1.Book('9783864907791', 'Angular', ['Ferdinand Malcher', 'Johannes Hoppe', 'Danny Koppenhagen'], new Date('2020-09-01T00:00:00.000Z'), 'Angular: Grundlagen, fortgeschrittene Themen und Best Practices – inkl. RxJS, NgRx & PWA (iX Edition)', 5, [
         new book_1.Thumbnail('https://api4.angular-buch.com/images/angular_auflage3.jpg', 'Front Cover'),
-    ], `Lernen Sie die Grundlagen von Angular mit diesem Praxisbuch!
+    ], `Lernen Sie Angular mit diesem Praxisbuch!
 
 Mit einem anspruchsvollen Beispielprojekt führen wir Sie durch die Welt von Angular. Lernen Sie Schritt für Schritt, wie Sie modulare Single-Page-Anwendungen entwickeln.
-
+      
 Praktisch: Der Programmcode zu jeder einzelnen Entwicklungsphase ist auf GitHub verfügbar. So können Sie alle Schritte gut nachvollziehen und auch Teile überspringen.
-
-Die Autoren sind erfahrene Workshopleiter, Entwickler und internationale Konferenzsprecher. In diesem praktischen Nachschlagewerk vermitteln sie die Best Practices aus der täglichen Arbeit mit Angular.
+      
+Die Autoren Ferdinand Malcher, Johannes Hoppe und Danny Koppenhagen sind erfahrene Workshopleiter, Entwickler und internationale Konferenzsprecher. Aufgrund ihres Engagements rund um das Buch und Angular wurden Ferdinand und Johannes als Google Developer Experts (GDE) ausgezeichnet. In diesem praktischen Nachschlagewerk vermitteln sie die Best Practices aus ihrer täglichen Arbeit mit Angular.
+      
 Neben den Grundlagen werden auch behandelt:
-
-• Kompakter Schnelleinstieg mit Stackblitz
+      
 • Reaktive Programmierung mit RxJS
-• State-Management mit Redux und NgRx
+• State Management mit Redux und NgRx
 • Testing mit Jasmine, Karma und Protractor
-• Routing und Modulsystem
+• Routing, Guards und Modulsystem
 • HTTP und Interceptoren
 • Formularverarbeitung
 • Dependency Injection und Services
 • Internationalisierung (i18n)
-• Progressive Web Apps (PWA)
-• Mobile Anwendungen mit NativeScript
 • Server-Side Rendering
+• Progressive Web Apps (PWA) und NativeScript
 
 Das Buch setzt Vorkenntnisse in JavaScript, HTML und CSS voraus. Wer noch nicht mit TypeScript vertraut ist, findet hier eine kompakte Einführung.
 
 Auf der Website zum Buch werden außerdem regelmäßig Aktualisierungen und Neuigkeiten rund um Angular veröffentlicht.
 
 Neu in dieser Auflage
-
 • Durchgängig aktualisiert auf Angular 10 und neuere Versionen
 • Deployment mit Docker
-• Progressive Web Apps mit Angular`),
+• Progressive Web Apps (PWA)
+• Angular Elements
+• OAuth 2 und OpenID Connect
+• Viele Ergänzungen und Korrekturen`),
     new book_1.Book('9783864906466', 'Angular', ['Ferdinand Malcher', 'Johannes Hoppe', 'Danny Koppenhagen'], new Date('2019-04-30T00:00:00.000Z'), 'Grundlagen, fortgeschrittene Themen und Best Practices – mit NativeScript und NgRx', 4, [
         new book_1.Thumbnail('https://api4.angular-buch.com/images/angular_auflage2.jpg', 'Front Cover'),
         new book_1.Thumbnail('https://api4.angular-buch.com/images/angular_auflage2_back.jpg', 'Rückseite'),
