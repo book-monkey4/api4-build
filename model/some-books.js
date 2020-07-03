@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const book_1 = require("./book");
 class SomeBooks {
     static get() {
-        return SomeBooks.germanBooks;
+        return [...SomeBooks.germanBooks];
     }
 }
 exports.SomeBooks = SomeBooks;
@@ -15,13 +15,13 @@ SomeBooks.germanBooks = [
     ], `Lernen Sie Angular mit diesem Praxisbuch!
 
 Mit einem anspruchsvollen Beispielprojekt führen wir Sie durch die Welt von Angular. Lernen Sie Schritt für Schritt, wie Sie modulare Single-Page-Anwendungen entwickeln.
-      
+
 Praktisch: Der Programmcode zu jeder einzelnen Entwicklungsphase ist auf GitHub verfügbar. So können Sie alle Schritte gut nachvollziehen und auch Teile überspringen.
-      
+
 Die Autoren Ferdinand Malcher, Johannes Hoppe und Danny Koppenhagen sind erfahrene Workshopleiter, Entwickler und internationale Konferenzsprecher. Aufgrund ihres Engagements rund um das Buch und Angular wurden Ferdinand und Johannes als Google Developer Experts (GDE) ausgezeichnet. In diesem praktischen Nachschlagewerk vermitteln sie die Best Practices aus ihrer täglichen Arbeit mit Angular.
-      
+
 Neben den Grundlagen werden auch behandelt:
-      
+
 • Reaktive Programmierung mit RxJS
 • State Management mit Redux und NgRx
 • Testing mit Jasmine, Karma und Protractor

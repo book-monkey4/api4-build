@@ -57,7 +57,7 @@ class BooksStore {
         if (book.isbn === some_books_1.SomeBooks.secureBook.isbn) {
             return;
         }
-        this.booksCache.push(book);
+        this.booksCache = [...this.booksCache, book];
     }
     ;
     update(book) {
